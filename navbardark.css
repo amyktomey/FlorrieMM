@@ -1,0 +1,10 @@
+.navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: rgb(54, 10, 10); /*dark text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+    border-style: double;
+    border-radius: 12px; /* round the borders*/
+  }
