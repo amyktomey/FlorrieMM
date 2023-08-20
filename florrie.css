@@ -39,8 +39,8 @@
 
 /* Change color on hover/mouse-over */
 .navbar a:hover {
-  background-color: #95b1b8; /* light background color */
-  color: rgb(62, 102, 133); /* violet text color */
+  background-color: LightGray; /* light background color */
+  color: teal; /* violet text color */
 }
 /* Ensure proper sizing */
 * {
