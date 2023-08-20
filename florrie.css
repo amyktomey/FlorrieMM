@@ -10,9 +10,16 @@
 
 }
 
+.header2 {
+padding: 80px; /* some padding */
+text-align: center; /* center the text */
+font-size: 40px;
+color: rgb(229, 75, 172);
+}
+
 /* Increase the font size of the <h1> element */
 .header h1 {
-  font-size: 40px;
+  font-size: 60px;
 }
 /* Style the top navigation bar */
 .navbar {
@@ -85,4 +92,9 @@
   padding: 20px; /* Some padding */
   text-align: center; /* Center text*/
   background: LightGray; /* light gray background */
+}
+.footer2 {
+  padding: 20px; /* Some padding */
+  text-align: center; /* Center text*/
+  color:rgba(0, 0, 0, 0); /* transparent background */
 }
