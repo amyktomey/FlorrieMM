@@ -17,9 +17,8 @@ font-size: 40px;
 color: rgb(229, 75, 172);
 }
 
-/* Increase the font size of the <h1> element */
+/*  Increase the font size of the <h1> element */
 .header h1 {
-  font-family: Pacifico, Cambria, sans-serif;
   font-size: 60px;
 }
 /* Style the top navigation bar */
@@ -48,7 +47,7 @@ color: rgb(229, 75, 172);
 /* Change color on hover/mouse-over */
 .navbar a:hover {
   background-color: LightGray; /* light background color */
-  color: teal; /* violet text color */
+  color: teal; /* green-ish text color */
 }
 /* Ensure proper sizing */
 * {
@@ -61,7 +60,7 @@ color: rgb(229, 75, 172);
   flex-wrap: wrap;
 }
 
-/* Create two unequal columns that sits next to each other */
+/* Create two unequal columns that sit next to each other */
 /* Sidebar/left column */
 .side {
   flex: 30%; /* Set the width of the sidebar */
@@ -98,4 +97,11 @@ color: rgb(229, 75, 172);
   padding: 20px; /* Some padding */
   text-align: center; /* Center text*/
   color:rgba(0, 0, 0, 0); /* transparent background */
+  color: white;
+}
+.footer3 {
+  padding: 20px; /* Some padding */
+  text-align: center; /* Center text*/
+  color:rgba(0, 0, 0, 0); /* transparent background */
+  color: black;
 }
