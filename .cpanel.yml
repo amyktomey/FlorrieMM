@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=C:\Users\m0mon\Florrie\FMM
+
