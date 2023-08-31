@@ -1,4 +1,4 @@
 ---
 deployment:
   tasks:
-    export depoypath=https://github.com/amyktomey/FlorrieMM.git
+    export DEPLOYPATH=https://github.com/amyktomey/FlorrieMM.git
