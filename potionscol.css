@@ -1,3 +1,10 @@
+.paraA {
+font-size: 20px;
+}
+.PotionList {
+  font-size: 20px;
+}
+
 /* Ensure proper sizing */
 * {
     box-sizing: border-box;
