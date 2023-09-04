@@ -1,4 +1,5 @@
 ---
 deployment:
   tasks:
-    export DEPLOYPATH=https://github.com/amyktomey/FlorrieMM.git
+    - export DEPLOYPATH=/home/foryybx/public_html/
+    - /bin/cp https://github.com/amyktomey/FlorrieMM.git $DEPLOYPATH
