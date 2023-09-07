@@ -7,7 +7,15 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; 
-
+}
+img {
+  position: center;
+  left:auto;
+  right:auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px; 
 }
 
 .header2 {
