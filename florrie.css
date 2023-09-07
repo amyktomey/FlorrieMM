@@ -9,11 +9,13 @@
   background-repeat: no-repeat; 
 }
 img {
-  position: center;
   left:auto;
   right:auto;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  display:block;
+  border: 1px solid #090909;
+  background-color: rgba(0, 0, 0, 0); 
+  border-style: double;
+  border-radius: 15px;
   padding: 5px;
   width: 150px; 
 }
