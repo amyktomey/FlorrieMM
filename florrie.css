@@ -73,14 +73,14 @@ color: rgb(229, 75, 172);
 /* Create two unequal columns that sit next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 30%; /* Set the width of the sidebar */
+  flex: 40%; /* Set the width of the sidebar */
   background-color: #f4b4b4; /* light peachy background color */
   padding: 20px; /* Some padding */
 }
 
 /* Main column */
 .main {
-  flex: 70%; /* Set the width of the main content */
+  flex: 60%; /* Set the width of the main content */
   background-color: rgb(206, 200, 200); /* White background color */
   padding: 20px; /* Some padding */
 }
