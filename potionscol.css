@@ -19,14 +19,14 @@ font-size: 20px;
   /* Create two unequal columns that sit next to each other */
   /* Sidebar/left column */
   .side {
-    flex: 55%; /* Set the width of the sidebar */
+    flex: 60%; /* Set the width of the sidebar */
     background-color: lightgray; /* light peachy background color */
     padding: 10px; /* Some padding */
   }
   
   /* Main column */
   .main {
-    flex: 45%; /* Set the width of the main content */
+    flex: 40%; /* Set the width of the main content */
     background-color: lightgray; /* White background color */
     padding: 30px; /* Some padding */
   }
