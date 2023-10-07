@@ -12,17 +12,14 @@ img {
   display:block;
   margin-left:auto;
   margin-right:auto;
-  /* border: 1px solid #090909; */
   background-color: rgba(0, 0, 0, 0); 
-  /* border-style: double; */
-  /* border-radius: 15px; */
   padding: 5px;
   width: 150px; 
 }
 
 .header2 {
-padding: 80px; /* some padding */
-text-align: center; /* center the text */
+padding: 35px; 
+text-align: center;
 font-size: 40px;
 color: rgb(229, 75, 172);
 }
