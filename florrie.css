@@ -1,13 +1,14 @@
 .header {
-  padding: 80px; /* some padding */
-  text-align: center; /* center the text */
-  background: #072f21; /* dark background */
-  color: white; /* white text color */
+  padding: 80px;
+  text-align: center;
+  background: #072f21;
+  color: white; 
   background-image: url(SiteShots/book6.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; 
 }
+
 img {
   display:block;
   margin-left:auto;
@@ -24,70 +25,73 @@ font-size: 40px;
 color: rgb(229, 75, 172);
 }
 
+.header3 {
+  background-image: url(SiteShots/fantasyforest3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  color: hsl(55, 97%, 50%);
+}
+
 .header h1 {
   font-size: 60px;
 }
-/* Style the top navigation bar */
 .navbar {
-  overflow: hidden; /* Hide overflow */
-  background-color: rgba(0, 0, 0, 0); /* transparent background */
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
 }
 
-/* Style the navigation bar links */
+
 .navbar a {
-  float: left; /* Make sure that the links stay side-by-side */
-  display: block; /* Change the display to block, for responsive reasons (see below) */
-  color: whitesmoke; /*white text color */
-  text-align: center; /* Center the text */
-  padding: 14px 20px; /* Add some padding */
-  text-decoration: none; /* Remove underline */
+  float: left; 
+  display: block; 
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 20px; 
+  text-decoration: none;
   border-style: double;
-  border-radius: 12px; /* round the borders*/
+  border-radius: 12px;
 }
 
-/* Right-aligned link */
 .navbar a.right {
-  float: right; /* Float a link to the right */
+  float: right; 
 }
 
-/* Change color on hover/mouse-over */
 .navbar a:hover {
-  background-color: LightGray; /* light background color */
-  color: teal; /* green-ish text color */
+  background-color: LightGray; 
+  color: teal;
 }
-/* Ensure proper sizing */
+
 * {
   box-sizing: border-box;
 }
 
-/* Column container */
+
 .row {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* Create two unequal columns that sit next to each other */
-/* Sidebar/left column */
 .side {
-  flex: 40%; /* Set the width of the sidebar */
-  background-color: #f4b4b4; /* light peachy background color */
-  padding: 20px; /* Some padding */
+  flex: 40%; 
+  background-color: #f4b4b4; 
+  padding: 20px;
 }
 
-/* Main column */
+
 .main {
-  flex: 60%; /* Set the width of the main content */
-  background-color: rgb(206, 200, 200); /* White background color */
-  padding: 20px; /* Some padding */
+  flex: 60%; 
+  background-color: rgb(206, 200, 200); 
+  padding: 20px; 
 }
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 700px) {
   .row {
     flex-direction: column;
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 400px) {
   .navbar a {
     float: none;
@@ -95,19 +99,25 @@ color: rgb(229, 75, 172);
   }
 }
 .footer {
-  padding: 20px; /* Some padding */
-  text-align: center; /* Center text*/
-  background: LightGray; /* light gray background */
+  padding: 20px;
+  text-align: center;
+  background: LightGray; 
 }
 .footer2 {
-  padding: 20px; /* Some padding */
-  text-align: center; /* Center text*/
-  color:rgba(0, 0, 0, 0); /* transparent background */
+  padding: 20px;
+  text-align: center; 
+  color:rgba(0, 0, 0, 0);
   color: white;
 }
 .footer3 {
-  padding: 20px; /* Some padding */
-  text-align: center; /* Center text*/
-  color:rgba(0, 0, 0, 0); /* transparent background */
+  padding: 20px; 
+  text-align: center; 
+  color:rgba(0, 0, 0, 0); 
   color: black;
+}
+.footer4 {
+  padding: 20px; 
+  text-align: center; 
+  color:rgb(0, 0, 0); 
+  color: rgb(246, 228, 92);
 }
