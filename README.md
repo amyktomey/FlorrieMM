@@ -1,4 +1,4 @@
-Thie site is for a small business that kicked off in June 2023.
+This site is for a small business that kicked off in June 2023.
 
 The "Shop Now" link takes you to an exterior site for purchasing her wares.  
 
