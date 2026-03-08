@@ -27,6 +27,6 @@ font-size: 20px;
   /* Main column */
   .main {
     flex: 40%; /* Set the width of the main content */
-    background-color: lightgray; /* White background color */
+    background-color: lightgray; /* grey background color */
     padding: 30px; /* Some padding */
   }

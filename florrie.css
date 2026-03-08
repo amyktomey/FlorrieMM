@@ -79,11 +79,10 @@ color: rgb(229, 75, 172);
   padding: 20px;
 }
 
-
 .main {
   flex: 60%; 
   background-color: rgb(152, 215, 255); 
-  padding: 20px; 
+  padding: 20px;
 }
 
 @media screen and (max-width: 700px) {
@@ -99,7 +98,10 @@ color: rgb(229, 75, 172);
     width: 100%;
   }
 }
+
 .footer {
+  position: relative;
+  padding-top: 40PX;
   padding: 20px;
   text-align: center;
   background: LightGray; 
