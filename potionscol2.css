@@ -1,0 +1,32 @@
+.paraA {
+font-size: 20px;
+}
+.PotionList {
+  font-size: 20px;
+}
+
+/* Ensure proper sizing */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Column container */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two equal columns that sit next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 60%; /* Set the width of the sidebar */
+    background: none;
+    padding: 10px; /* Some padding */
+  }
+  
+  /* Main column */
+  .main {
+    flex: 40%; /* Set the width of the main content */
+    background: none;
+    padding: 30px; /* Some padding */
+  }
