@@ -5,7 +5,7 @@
     position: relative;
     background-color: #efe1e1;
     border: 8px solid #27242b;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
   }
   .slide > div {
     width: 100%;
