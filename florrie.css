@@ -80,8 +80,15 @@ color: rgb(229, 75, 172);
 }
 
 .main {
+  
   flex: 60%; 
   background-color: rgb(152, 215, 255); 
+  padding: 20px;
+}
+
+.side2 {
+  flex: 40%; 
+  background-color: #b5b2b3; 
   padding: 20px;
 }
 
@@ -90,7 +97,6 @@ color: rgb(229, 75, 172);
     flex-direction: column;
   }
 }
-
 
 @media screen and (max-width: 400px) {
   .navbar a {
