@@ -1,6 +1,6 @@
 .slide {
-    width: 311px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     position: relative;
     background-color: #efe1e1;

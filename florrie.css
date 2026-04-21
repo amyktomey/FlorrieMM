@@ -1,3 +1,7 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 .header {
   padding: 80px;
   text-align: center;
@@ -63,14 +67,10 @@ color: rgb(229, 75, 172);
   color: teal;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-
 .row {
   display: flex;
   flex-wrap: wrap;
+  padding: 20px;
 }
 
 .side {
@@ -80,14 +80,13 @@ color: rgb(229, 75, 172);
 }
 
 .main {
-  
   flex: 60%; 
   background-color: rgb(152, 215, 255); 
   padding: 20px;
 }
 
 .side2 {
-  flex: 40%; 
+  flex: 50%; 
   background-color: #b5b2b3; 
   padding: 20px;
 }
